@@ -16,4 +16,7 @@ Maven_Instructions
 
 Git_Instructions:
 
-- Install and integrate Git plugin to implement automatic updates after each push r
+- Install and integrate Git plugin to implement automatic updates after each push 
+
+At this point, the code is hosted on git and is continously built on the Jenkins server. Now, set up a Docker container:
+
