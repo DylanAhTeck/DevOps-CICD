@@ -22,6 +22,20 @@ Git_Instructions:
 
 Go to Tomcat folder and follow the instructions
 
-### Deploying into a Docker container using Jenkins 
+### Deploying into a Docker container using Jenkins
 
-Go to Docker folder and 
+Go to Docker folder and follow instructions
+
+### Using Ansible to automate deployment into Docker container
+
+Go to Ansible folder and follow instructions
+
+### Replace Docker host with Kubernetes
+
+Go to Kubernetes folder and follow instructions
+
+Kubernetes_Instructions:
+
+- Set up Kubernetes on a new EC2 instance
+
+Jenkins and Ansible Integration instructions

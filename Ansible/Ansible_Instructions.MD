@@ -1,6 +1,6 @@
 # Ansible Installation
 
-Ansible is an open-source automation platform. It is very, very simple to set up and yet powerful. Ansible can help you with configuration management, application deployment, task automation.
+Ansible is an open-source automation platform. It is simple to set up and yet powerful. Ansible helps with configuration management, application deployment, and task automation.
 
 ### Pre-requisites
 
@@ -22,12 +22,12 @@ Ansible is an open-source automation platform. It is very, very simple to set up
    ansible --version
    ```
 
-1. Create a user called ansadmin (on Control node and Managed host)
+1. Create user called ansadmin (on Control node and Managed host)
    ```sh
    useradd ansadmin
    passwd ansadmin
    ```
-1. Below command grant sudo access to ansadmin user. But we strongly recommended using "visudo" command if you are aware vi or nano editor. (on Control node and Managed host)
+1. Grant sudo access to ansadmin user.
 
    ```sh
    echo "ansadmin ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
@@ -43,7 +43,7 @@ Ansible is an open-source automation platform. It is very, very simple to set up
    ssh-copy-id ansadmin@<target-server>
    ```
 
-1. Ansible server used to create images and store on docker registry. Hence install docker, start docker services and add ansadmin to the docker group.
+1. The Ansible server is used to create images and store on docker registry. Therfore install docker, start docker services and add ansadmin to the docker group.
 
    ```sh
    yum install docker
@@ -57,7 +57,7 @@ Ansible is an open-source automation platform. It is very, very simple to set up
 
    ```
 
-1. Create a directory /etc/ansible and create an inventory file called "hosts" add control node and managed hosts IP addresses to it.
+1. Create a directory /etc/ansible and add an inventory file called "hosts". Add control node and managed hosts IP addresses to it.
 
 ### Validation test
 
