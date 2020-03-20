@@ -1,6 +1,6 @@
 # DevOps-CICD
 
-Given an existing Java project, I set up a CI/CD pipeline.
+Documented the steps of how to set up a CI/CD pipeline for a simple Java project.
 
 ### Setting up Jenkins and plugins CI/CD pipeline
 
