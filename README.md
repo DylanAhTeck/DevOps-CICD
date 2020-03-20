@@ -2,7 +2,7 @@
 
 Given an existing Java project, I set up a CI/CD pipeline.
 
-### Setting up CI/CD pipeline
+### Setting up Jenkins and plugins CI/CD pipeline
 
 Go the Jenkins folder and follow the instructions in this order:
 
@@ -17,3 +17,11 @@ Maven_Instructions
 Git_Instructions:
 
 - Install and integrate Git plugin to implement automatic updates after each push r
+
+### Integrate Tomcat server
+
+Go to Tomcat folder and follow the instructions
+
+### Deploying into a Docker container using Jenkins 
+
+Go to Docker folder and 
